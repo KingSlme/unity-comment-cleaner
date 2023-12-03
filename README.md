@@ -3,7 +3,7 @@ Tool to prevent Start and Update comment generation for new MonoBehaviour script
 
 ## Key Features
 * Support for automatic detection of current running Unity Editor processes
-* Support for manual path input to unity Editor directory
+* Support for manual path input to Unity Editor directory
 
 ## How to Use
 *For Script:*
