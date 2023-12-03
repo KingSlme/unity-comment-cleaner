@@ -8,17 +8,17 @@ function Main {
         Display-Logo
         Display-Options
     } else {
-        Write-Host "Insufficient permissions! Make sure you are running as administrator!" -ForegroundColor Red
+        Write-Host "Insufficient permissions! Make sure you are running as administrator!" -f Red
         $userInput = Read-Host
         Exit
     }
 }
 
 function Display-Logo {
-    Write-Host "-----------------------------------------------------" -foregroundColor Blue
-    Write-Host "`|               Unity Comment Cleaner               `|" -foregroundColor Blue
-    Write-Host "`| https://github.com/KingSlme/unity-comment-cleaner `|" -foregroundColor Blue
-    Write-Host "-----------------------------------------------------" -foregroundColor Blue
+    Write-Host "-----------------------------------------------------" -f Blue
+    Write-Host "`|               Unity Comment Cleaner               `|" -f Blue
+    Write-Host "`| https://github.com/KingSlme/unity-comment-cleaner `|" -f Blue
+    Write-Host "-----------------------------------------------------" -f Blue
 }
 
 function Display-Options {
@@ -91,7 +91,7 @@ function Handle-AutomaticPath {
             Handle-AutomaticPath
         }
     } else {
-        Write-Host "No Unity Editor processes found" -ForegroundColor Red
+        Write-Host "No Unity Editor processes found" -f Red
         Display-Options
     }
 }
