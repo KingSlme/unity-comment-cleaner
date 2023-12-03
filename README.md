@@ -1,2 +1,15 @@
-# unity-vscode-comment-remover
-Tool to remove Start and Update comments from new MonoBehaviour scripts.
+# unity-comment-cleaner
+Tool to prevent Start and Update comment generation for new MonoBehaviour scripts.
+
+## Key Features
+* Support for automatic detection of current running Unity Editor processes
+* Support for manual path input to unity Editor directory
+
+## How to Use
+*For Script:*
+1. Run powershell as administrator
+2. Change the directory to the location of the script
+3. Run the script with ./UnityCommentCleaner.ps1
+
+*For Executable:*
+1. Simply run as administrator
