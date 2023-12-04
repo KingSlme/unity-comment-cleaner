@@ -13,3 +13,9 @@ Tool to prevent Start and Update comment generation for new MonoBehaviour script
 
 *For Executable:*
 1. Simply run as administrator
+
+## Problems
+*If you have problems running the script run this command first:*
+```ps1
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+```
